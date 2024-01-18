@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native'
+import { Home } from './src/screens'
 
 interface Task {
   task: string
@@ -35,9 +36,7 @@ export default function App() {
 
   return (
     <>
-      <View style={styles.header}>
-        <Text>Logo</Text>
-      </View>
+      <Home />
       <TextInput
         style={styles.input}
         onChangeText={setValue}
