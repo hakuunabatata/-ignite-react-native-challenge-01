@@ -19,7 +19,7 @@ export const Info = ({ tasks }: Props) => (
         Concluídas
       </Text>
       <Text style={styles.number}>
-        {tasks.filter(({ done }) => done).length}
+        <Text>{tasks.filter(({ done }) => done).length}</Text>
       </Text>
     </View>
   </View>

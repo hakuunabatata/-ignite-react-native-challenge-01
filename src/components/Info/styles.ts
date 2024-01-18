@@ -7,9 +7,9 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'flex-end',
     padding: 0,
-    gap: 561,
+    gap: 100,
     width: 327,
-    height: 19,
+    height: 40,
   },
   textContainer: {
     flex: 1,
@@ -18,11 +18,11 @@ export default StyleSheet.create({
     padding: 0,
     gap: 8,
     margin: 0,
-    width: 86,
-    height: 19,
+    width: 100,
+    height: 40,
   },
   text: {
-    width: 54,
+    width: 74,
     height: 17,
     fontStyle: 'normal',
     fontWeight: '700',
@@ -34,44 +34,13 @@ export default StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 2,
-    paddingVertical: 8,
+    textAlign: 'center',
+    paddingHorizontal: 8,
+    paddingVertical: 2,
     gap: 10,
     width: 24,
-    height: 19,
+    height: 25,
     backgroundColor: '#333333',
     borderRadius: 999,
   },
 })
-
-// display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;
-// padding: 2px 8px;
-// gap: 10px;
-
-// width: 24px;
-// height: 19px;
-
-// background: #333333;
-// border-radius: 999px;
-
-// flex: none;
-// order: 1;
-// flex-grow: 0;
-
-// width: 8px;
-// height: 15px;
-
-// font-family: 'Inter';
-// font-style: normal;
-// font-weight: 700;
-// font-size: 12px;
-// line-height: 15px;
-
-// color: #D9D9D9;
-
-// flex: none;
-// order: 0;
-// flex-grow: 0;
