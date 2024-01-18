@@ -1,4 +1,5 @@
 import { Text, TextInput, TouchableOpacity, View } from 'react-native'
+import { FontAwesome as Icon } from '@expo/vector-icons'
 import styles from './styles'
 
 interface Props {
@@ -16,8 +17,15 @@ export const Search = ({ onChange, onPress, value }: Props) => (
       placeholderTextColor='#808080'
       value={value}
     />
-    <TouchableOpacity onPress={onPress}>
-      <Text>Create</Text>
+    <TouchableOpacity
+      style={styles.submitButton}
+      onPress={onPress}
+    >
+      <Icon
+        name='plus'
+        size={16}
+        color='#F2F2F2'
+      />
     </TouchableOpacity>
   </View>
 )

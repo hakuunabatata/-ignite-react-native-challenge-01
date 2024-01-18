@@ -24,56 +24,84 @@ export default StyleSheet.create({
     fontSize: 16,
     color: '#808080',
   },
+  submitButton: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 18,
+    gap: 8,
+    width: 52,
+    height: 52,
+    backgroundColor: '#1E6F9F',
+    borderRadius: 6,
+  },
+  submitIcon: {},
 })
 
 /*
-
-/* 
-
-box-sizing: border-box;
-
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px;
-gap: 8px;
-
-width: 271px;
-height: 54px;
-
-
-background: #262626;
-
-border: 1px solid #0D0D0D;
-border-radius: 6px;
-
-
-flex: none;
-order: 0;
-flex-grow: 1;
+/*
+width: 16px;
+height: 16px;
 
 
 
-
-width: 192px;
-height: 22px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-
-
-
-color: #808080;
-
-
-
+layout 
 flex: none;
 order: 0;
 flex-grow: 0;
+
+
+
+
+position: absolute;
+left: 0.2%;
+right: 0%;
+top: 0%;
+bottom: 0.2%;
+
+
+
+
+
+position: absolute;
+left: 0.2%;
+right: 0%;
+top: 0%;
+bottom: 0.2%;
+
+
+
+
+position: absolute;
+left: 7.62%;
+right: 7.64%;
+top: 7.62%;
+bottom: 7.64%;
+
+
+
+
+position: absolute;
+left: 0.2%;
+right: 0%;
+top: 0%;
+bottom: 0.2%;
+
+
+
+background: #F2F2F2;
+
+
+
+position: absolute;
+left: 26.24%;
+right: 26.83%;
+top: 26.06%;
+bottom: 27.04%;
+
+
+
+background: #F2F2F2;
 
 
 */
