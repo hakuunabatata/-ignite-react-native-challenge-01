@@ -36,14 +36,11 @@ export default function App() {
 
   return (
     <>
-      <Home />
-      <TextInput
-        style={styles.input}
-        onChangeText={setValue}
+      <Home
+        onChange={setValue}
+        onPress={addTask}
+        value={value}
       />
-      <TouchableOpacity onPress={addTask}>
-        <Text>Create</Text>
-      </TouchableOpacity>
       <View>
         <Text>Criadas</Text>
         <Text>{tasks.length}</Text>
